@@ -1,0 +1,29 @@
+{
+    "products" : [
+        {
+            "sku" : "item0001",
+            "name" : "Plated Pearls Necklace",
+            "price" : 1100
+        },
+        {
+            "sku" : "item0002",
+            "name" : "Choker Necklace",
+            "price" : 690
+        },
+        {
+            "sku" : "item0003",
+            "name" : "Mirror work",
+            "price" : 560
+        },
+        {
+            "sku" : "item0004",
+            "name" : "Blue Stone Diamond",
+            "price" : 322464
+        },
+        {
+            "sku" : "item0005",
+            "name" : "Antique Gold design",
+            "price" : 333967
+        }
+    ]
+}
