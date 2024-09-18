@@ -51,6 +51,7 @@ export const ProductsProvider = ({children} : ChildrenType) : ReactElement => {
     useEffect(()=>{
         const fetchProducts = async (): Promise<ProductType[]> =>{
             const data = await fetch('http://localhost:3500/products')
+            
             .then(res => { 
                 return res.json()
             })
@@ -71,3 +72,6 @@ export const ProductsProvider = ({children} : ChildrenType) : ReactElement => {
 }
 
 export default ProductsContext;
+
+// created a mock api json server => fetching the data
+// cmd --> npx json-server -w data/products.json -p 3500
